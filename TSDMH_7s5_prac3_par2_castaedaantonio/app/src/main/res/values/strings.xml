@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TSDMH_7s5_prac3_par2_castañedaantonio</string>
+    <string name="listo_para_iniciar">Listo para iniciar</string>
+    <string name="cero_porciento">0%</string>
+    <string name="cien_porciento">100%</string>
+    <string name="iniciar_tarea">Iniciar tarea</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="iniciando_tarea">Iniciando Tarea</string>
+    <string name="tarea_cancelada">Tarea Cancelada</string>
+    <string name="tarea_finalizada">Tarea finalizada</string>
+    <string name="progreso_formato">%1$d%%</string>
+</resources>

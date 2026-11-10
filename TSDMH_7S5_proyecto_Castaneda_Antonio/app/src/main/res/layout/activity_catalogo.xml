@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <!-- ENCABEZADO -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:text="EXAMEN PARCIAL - App de Práctica"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        android:background="#3049A8"
+        android:elevation="4dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione una Categoría:"
+                android:textSize="25sp"
+                android:textColor="#222222"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- LISTA DESPLEGABLE (SPINNER) -->
+            <Spinner
+                android:id="@+id/spinnerCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="8dp"
+                android:spinnerMode="dropdown" />
+
+            <!-- CONTENEDOR DEL PROGRESO -->
+            <LinearLayout
+                android:id="@+id/contenedorProgreso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_catalogo"
+                android:padding="15dp"
+                android:layout_marginTop="25dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txtTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textColor="#222222"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/txtPorcentaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#555555"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+                <ProgressBar
+                    android:id="@+id/barraProgreso"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:max="100"
+                    android:progress="0"
+                    android:layout_marginTop="15dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

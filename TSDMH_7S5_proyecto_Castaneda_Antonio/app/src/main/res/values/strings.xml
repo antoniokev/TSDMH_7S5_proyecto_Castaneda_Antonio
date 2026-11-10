@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TSDMH_7S5_proyecto_Castaneda_Antonio</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_datos">Datos</string>
+    <string name="title_activity_categoria">Categoría</string>
+    <string name="welcome_message">Bienvenido a PrincipalActivity</string>
+    <string name="btn_solicitar_datos">Solicitar datos</string>
+    <string name="cargando_datos">Cargando datos&#8230;</string>
+    <string name="datos_cargados">¡Datos cargados correctamente!</string>
+    <string name="title_control_fragment">Controles de Entrada</string>
+    <string name="hint_input_data">Ingrese texto o dato a procesar</string>
+    <string name="btn_procesar">Procesar Datos</string>
+    <string name="title_result">Resultado del Procesamiento:</string>
+    <string name="btn_nuevo_proceso">Nuevo Proceso</string>
+    <string name="error_empty_input">Por favor ingrese un dato válido</string>
+
+    <string name="seleccione_categoria">Seleccione una categoría</string>
+    <string name="btn_continuar">Continuar</string>
+
+    <string-array name="array_categorias">
+        <item>Base de datos</item>
+        <item>Red</item>
+        <item>Sincronización</item>
+        <item>Reportes</item>
+    </string-array>
+</resources>

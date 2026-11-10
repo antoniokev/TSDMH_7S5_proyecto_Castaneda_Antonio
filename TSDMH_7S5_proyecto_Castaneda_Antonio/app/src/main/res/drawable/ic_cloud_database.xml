@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Nube -->
+    <path
+        android:pathData="M 28,36 C 21,36 15,30 15,22 C 15,15 21,10 27,10 C 29,6 34,3 41,3 C 48,3 54,7 56,12 C 60,9 65,8 70,10 C 77,12 82,17 83,24 C 88,25 92,30 92,36 C 92,43 86,48 78,48 L 65,48 M 35,48 L 22,48 C 15,48 10,43 10,36"
+        android:strokeWidth="4"
+        android:strokeColor="#1E88E5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Flecha hacia arriba -->
+    <path
+        android:pathData="M 50,48 L 50,22 M 50,22 L 41,31 M 50,22 L 59,31"
+        android:strokeWidth="4.5"
+        android:strokeColor="#1E88E5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Bandeja superior de base de datos -->
+    <path
+        android:pathData="M 37,52 L 37,60 C 37,62 39,64 41,64 L 59,64 C 61,64 63,62 63,60 L 63,52"
+        android:strokeWidth="4"
+        android:strokeColor="#1E88E5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Base de datos - Borde superior -->
+    <path
+        android:pathData="M 28,60 C 28,54 72,54 72,60 C 72,66 28,66 28,60 Z"
+        android:strokeWidth="4"
+        android:strokeColor="#1E88E5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Base de datos - Nivel Medio -->
+    <path
+        android:pathData="M 28,60 L 28,76 C 28,82 72,82 72,76 L 72,60"
+        android:strokeWidth="4"
+        android:strokeColor="#1E88E5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Base de datos - Nivel Inferior -->
+    <path
+        android:pathData="M 28,76 L 28,90 C 28,96 72,96 72,90 L 72,76"
+        android:strokeWidth="4"
+        android:strokeColor="#1E88E5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Indicadores LED -->
+    <path
+        android:pathData="M 34,70 A 1.5,1.5 0 1,0 37,70 A 1.5,1.5 0 1,0 34,70
+                          M 42,70 A 1.5,1.5 0 1,0 45,70 A 1.5,1.5 0 1,0 42,70
+                          M 34,85 A 1.5,1.5 0 1,0 37,85 A 1.5,1.5 0 1,0 34,85
+                          M 42,85 A 1.5,1.5 0 1,0 45,85 A 1.5,1.5 0 1,0 42,85"
+        android:fillColor="#1E88E5" />
+
+    <!-- Ranuras horizontales -->
+    <path
+        android:pathData="M 52,68 L 65,68 M 55,73 L 66,73 M 52,83 L 65,83 M 55,88 L 66,88"
+        android:strokeWidth="3"
+        android:strokeColor="#1E88E5"
+        android:strokeLineCap="round" />
+
+</vector>
